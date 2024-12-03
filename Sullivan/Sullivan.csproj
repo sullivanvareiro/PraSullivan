@@ -67,9 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.html" />
     <Content Include="Agradecimentos.html" />
+    <Content Include="Conclusao.html" />
+    <Content Include="Contacto.html" />
     <Content Include="CV.html" />
+    <Content Include="Enquadramento.html" />
     <Content Include="Formacao.html" />
+    <Content Include="FormacaoContextoTrabalho.html" />
+    <Content Include="FormacaoTecnologica.html" />
     <Content Include="img\balanca.jpg" />
     <Content Include="img\balancamenor.jpg" />
     <Content Include="img\deusa2.jpg" />
@@ -88,6 +94,8 @@
     <Content Include="img\thinking-out-box-concept.jpg" />
     <Content Include="Index.html" />
     <Content Include="Introducao.html" />
+    <Content Include="PerfilSaida.html" />
+    <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

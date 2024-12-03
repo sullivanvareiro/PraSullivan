@@ -1,0 +1,247 @@
+﻿/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão da página */
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0px; /* Remove padding padrão do body */
+    background-color: #DCDCDC; /* Define a cor de fundo da página */
+}
+
+/* Cabeçalho */
+header {
+    background-image: url('../imagens/deusajustica.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Cobre todo o cabeçalho */
+    background-position: center top; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    color: white; /* Define a cor do texto do cabeçalho como branco */
+    padding: 100px 0; /* Adiciona padding vertical de 100px */
+    text-align: center; /* Centraliza o texto dentro do cabeçalho */
+    width: 100%; /* Largura total */
+    height: 300px; /* define a altura do menu com a foto */
+    position: relative; /* Permite o uso de z-index */
+    z-index: 1; /* Define a camada do cabeçalho */
+    background-attachment: scroll; /* A imagem de fundo se move ao rolar a página */
+}
+
+/* Estilo para a imagem */
+.imagem_topo {
+    width: 100%; /* Largura total */
+    height: auto; /* Permite que a altura se ajuste mantendo a proporção */
+    position: absolute; /* Posiciona a imagem de forma absoluta no cabeçalho */
+    top: 0; /* Mantenha a imagem no topo */
+    left: 0; /* Alinha a imagem à esquerda */
+    z-index: 0; /* Coloca a imagem atrás do texto */
+    object-fit: cover; /* Cobre o espaço mantendo a proporção */
+}
+
+/* Título do cabeçalho */
+.header-title {
+    position: absolute; /* Para posicionar o título corretamente */
+    top: 50%; /* Ajuste conforme necessário */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza verticalmente */
+    z-index: 2; /* Garante que o título fique acima da imagem */
+    font-size: 2rem; /* Aumenta o tamanho da fonte se necessário */
+}
+
+/* Estilo do menu */
+.navbar {
+    position: absolute; /* Para que o menu fique fixo em relação ao cabeçalho */
+    bottom: 0; /* Coloca o menu na parte inferior do cabeçalho */
+    left: 0; /* Alinha o menu à esquerda */
+    width: 100%; /* Largura total */
+    z-index: 2; /* Coloca a barra de navegação acima da imagem de fundo */
+    padding: 1rem 0; /* Ajusta o padding do menu */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor legibilidade */
+}
+
+
+/* Ajustes para o título "Meu Portefólio" */
+.navbar-brand {
+    padding: 0 20px; /* Adiciona padding lateral */
+    font-size: 1.5rem; /* Aumenta o tamanho da fonte se necessário */
+}
+
+
+/* Ajustar a barra de navegação */
+.navbar-nav {
+    padding-left: 15px; /* Adiciona espaço à esquerda */
+    padding-right: 15px; /* Adiciona espaço à direita */
+}
+
+/* Estilo para links de menu */
+.nav-link {
+    color: white; /* Cor dos links do menu */
+}
+
+    .nav-link:hover {
+        color: #ddd; /* Cor do link ao passar o mouse */
+    }
+
+
+/* Menu Lateral */
+.sidebar {
+    height: 100%; /* Altura total do menu lateral */
+    position: fixed; /* Mantém o menu fixo na tela */
+    top: 0; /* Alinha o menu ao topo da tela */
+    left: 0; /* Alinha o menu à esquerda */
+    width: 300px; /* Largura fixa do menu lateral */
+    padding-top: 20px; /* Adiciona padding ao topo do menu */
+    background-color: #343a40; /* Cor do fundo do menu */
+}
+
+    .sidebar a {
+        padding: 10px 15px; /* Adiciona padding aos links do menu lateral */
+        text-decoration: none; /* Remove o sublinhado dos links */
+        font-size: 1.1em; /* Define um tamanho de fonte maior para os links */
+        color: white; /* Cor do texto dos links */
+        display: block; /* Faz com que os links ocupem toda a largura */
+    }
+
+        .sidebar a:hover {
+            background-color: #495057; /* Cor de destaque ao passar o mouse */
+        }
+
+        .sidebar a.active {
+            background-color: #007bff; /* Cor de destaque para o link ativo */
+        }
+
+/* Conteúdo Principal */
+.content {
+    margin: 20px auto; /* Adiciona margem ao redor do conteúdo e centraliza */
+    max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+    padding: 40px; /* Adiciona padding ao conteúdo */
+}
+
+section {
+    margin: 2rem 0; /* Espaçamento entre as seções */
+    padding: 2rem; /* Aumente o padding interno das seções */
+    background-color: white; /* Cor de fundo das seções */
+    border-radius: 8px; /* Bordas arredondadas para as seções */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra às seções */
+}
+
+/* Títulos */
+h2, h3 {
+    border-bottom: 2px solid #333; /* Adiciona uma borda abaixo dos títulos */
+    padding-bottom: 0.5rem; /* Adiciona espaço abaixo dos títulos */
+}
+
+/* Rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 1rem 0; /* Adiciona padding ao rodapé */
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    position: relative; /* Permite que o rodapé se posicione normalmente */
+    bottom: 0; /* Alinha o rodapé ao fundo do contêiner */
+    width: 100%; /* Largura total do rodapé */
+}
+
+    footer i {
+        font-size: 1.5rem; /* Aumenta o tamanho dos ícones */
+        margin: 0 10px; /* Espaçamento entre os ícones */
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    footer p {
+        font-size: 0.8rem; /* Diminui o tamanho do texto */
+    }
+
+/* Navegação na página inicial */
+section#home nav ul {
+    display: flex; /* Usa flexbox para alinhar os itens da navegação */
+    flex-direction: column; /* Alinha os itens verticalmente */
+    margin: 1rem 0; /* Margem ao redor da lista de navegação */
+}
+
+    section#home nav ul li {
+        display: block; /* Faz com que cada item ocupe toda a largura */
+        margin: 0.5rem 0; /* Espaçamento entre os itens da lista */
+    }
+
+        section#home nav ul li a {
+            color: #333; /* Cor do texto dos links */
+            text-decoration: none; /* Remove o sublinhado dos links */
+            padding: 0.5rem; /* Adiciona padding aos links */
+            border-radius: 4px; /* Bordas arredondadas para os links */
+            background-color: #ddd; /* Cor de fundo dos links */
+            display: block; /* Faz com que os links ocupem toda a largura */
+        }
+
+            section#home nav ul li a:hover {
+                background-color: #bbb; /* Cor de fundo dos links ao passar o mouse */
+            }
+
+/* Texto justificado */
+.justify-text {
+    text-align: justify; /* Justifica o texto */
+}
+
+/* Tamanho do nome Sullivan na página de Agradecimentos */
+.large-text {
+    font-size: 1.3rem; /* Aumenta o tamanho da fonte */
+}
+
+/* Texto: Um mundo novo por descobrir */
+.texto-maior {
+    font-family: Arial; /* Define a fonte do texto */
+    font-size: 1.5rem; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+/* Estilo para imagens */
+figure {
+    max-width: 100%; /* Limita a largura máxima da imagem ao contêiner */
+    height: auto; /* Permite que a altura se ajuste mantendo a proporção */
+    display: block; /* Exibe o elemento como bloco */
+    margin-left: auto; /* Centraliza a imagem horizontalmente */
+    margin-right: auto; /* Centraliza a imagem horizontalmente */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+    border: 1px solid #999; /* Borda em volta da imagem */
+    padding: 2px; /* Espaço interno ao redor da imagem */
+}
+
+    figure img {
+        width: 100%; /* Ajusta a imagem para 100% da largura do contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+figcaption {
+    font-family: Arial; /* Define a fonte do texto da legenda */
+    font-size: 12px; /* Define o tamanho da fonte da legenda */
+    background-color: #343a40; /* Cor de fundo da legenda */
+    color: white; /* Cor do texto da legenda */
+    padding: 3px; /* Adiciona padding à legenda */
+}
+
+/* Margens para botões */
+.my-3 {
+    margin-top: 1rem; /* Margem acima do elemento */
+    margin-bottom: 1rem; /* Margem abaixo do elemento */
+}
+
+/* Estilo para créditos de fotos */
+.credit {
+    font-size: 0.8rem; /* Tamanho da fonte menor */
+    color: #555; /* Cor do texto */
+    writing-mode: vertical-rl; /* Torna o texto vertical */
+    transform: rotate(180deg); /* Inverte a direção do texto */
+    margin-left: 10px; /* Espaçamento à esquerda da imagem */
+    margin-top: 20px; /* Ajuste a altura do texto em relação à imagem */
+    display: flex; /* Permite que o texto fique na mesma linha */
+    align-items: flex-start; /* Alinha o texto ao início do container */
+}
+
+/* Espaço abaixo do botão voltar pra home na página Agradecimentos */
+.btn-space {
+    margin-bottom: 20px; /* Margem abaixo do botão */
+    margin-right: 10px; /* Margem entre os botões */
+}
+
+/* Espaço da página conclusão */
+.texto-conclusao {
+    font-family: Arial; /* Define a fonte do texto */
+    font-size: 1.5rem; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o texto como negrito */
+}
