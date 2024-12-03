@@ -67,6 +67,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Agradecimentos.html" />
+    <Content Include="CV.html" />
+    <Content Include="Formacao.html" />
+    <Content Include="img\balanca.jpg" />
+    <Content Include="img\balancamenor.jpg" />
+    <Content Include="img\deusa2.jpg" />
+    <Content Include="img\deusajustica.jpg" />
+    <Content Include="img\foto2.jpg" />
+    <Content Include="img\fotohomem.jpg" />
+    <Content Include="img\fotomenu.jpg" />
+    <Content Include="img\IEFP.png" />
+    <Content Include="img\pordosol.jpg" />
+    <Content Include="img\recomecar.jpg" />
+    <Content Include="img\recomeço.jpg" />
+    <Content Include="img\sulli1.jpg" />
+    <Content Include="img\sulli2.jpg" />
+    <Content Include="img\sulli3.jpg" />
+    <Content Include="img\sulli4.jpg" />
+    <Content Include="img\thinking-out-box-concept.jpg" />
     <Content Include="Index.html" />
     <Content Include="Introducao.html" />
     <Content Include="Web.config" />
@@ -83,9 +102,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
